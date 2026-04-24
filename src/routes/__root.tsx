@@ -29,10 +29,17 @@ export const Route = createRootRoute({
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "RESTECH — Tecnologia que vende por você" },
+      { title: "RESTECH — Tecnologia que faz você crescer" },
       { name: "description", content: "Sites, landing pages e automações sob medida para escalar suas vendas." },
       { name: "author", content: "RESTECH" },
       { name: "twitter:card", content: "summary_large_image" },
+      { property: "og:title", content: "RESTECH — Tecnologia que faz você crescer" },
+      { name: "twitter:title", content: "RESTECH — Tecnologia que faz você crescer" },
+      { property: "og:description", content: "Sites, landing pages e automações sob medida para escalar suas vendas." },
+      { name: "twitter:description", content: "Sites, landing pages e automações sob medida para escalar suas vendas." },
+      { property: "og:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/og-images/864d70d2-2cab-4beb-9c84-9f60c11b72d7" },
+      { name: "twitter:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/og-images/864d70d2-2cab-4beb-9c84-9f60c11b72d7" },
+      { property: "og:type", content: "website" },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
