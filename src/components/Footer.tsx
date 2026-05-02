@@ -26,8 +26,8 @@ export function Footer() {
         <div>
           <h4 className="font-semibold text-sm mb-4">Contato</h4>
           <ul className="space-y-2.5 text-sm text-muted-foreground">
-            <li>contato@restech.com.br</li>
-            <li>(11) 99999-9999</li>
+            <li>emailrestech@gmail.com</li>
+            <li>(98) 98154-9151</li>
             <li>Atendimento Brasil</li>
           </ul>
         </div>
@@ -35,7 +35,7 @@ export function Footer() {
 
       <div className="border-t border-border">
         <div className="max-w-7xl mx-auto px-6 py-5 flex flex-col md:flex-row justify-between gap-3 text-xs text-muted-foreground">
-          <p>© {new Date().getFullYear()} RESTECH Tecnologia. Todos os direitos reservados.</p>
+          <p>© {new Date().getFullYear()} RESTECH TECNOLOGIA. Todos os direitos reservados.</p>
           <p>CNPJ: 00.000.000/0001-00</p>
         </div>
       </div>

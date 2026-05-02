@@ -25,7 +25,7 @@ export function Contact() {
     const msg = encodeURIComponent(
       `Olá RESTECH! Sou ${parsed.data.nome}.\nE-mail: ${parsed.data.email}\nWhatsApp: ${parsed.data.whatsapp}\n\nNecessidade: ${parsed.data.necessidade}`
     );
-    window.open(`https://wa.me/5511999999999?text=${msg}`, "_blank");
+    window.open(`https://wa.me/5598981549151?text=${msg}`, "_blank");
     toast.success("Abrindo WhatsApp para finalizar...");
     setTimeout(() => setLoading(false), 800);
   };
@@ -48,13 +48,13 @@ export function Contact() {
               </p>
 
               <div className="space-y-4">
-                <a href="https://wa.me/5511999999999" className="flex items-center gap-3 text-foreground/90 hover:text-primary transition">
+                <a href="https://wa.me/5598981549151" className="flex items-center gap-3 text-foreground/90 hover:text-primary transition">
                   <MessageCircle size={18} className="text-primary" />
-                  <span className="text-sm">(11) 99999-9999</span>
+                  <span className="text-sm">(98) 98154-9151</span>
                 </a>
-                <a href="mailto:contato@restech.com.br" className="flex items-center gap-3 text-foreground/90 hover:text-primary transition">
+                <a href="mailto:emailrestech@gmail.com" className="flex items-center gap-3 text-foreground/90 hover:text-primary transition">
                   <Mail size={18} className="text-primary" />
-                  <span className="text-sm">contato@restech.com.br</span>
+                  <span className="text-sm">emailrestech@gmail.com</span>
                 </a>
                 <div className="flex items-center gap-3 text-muted-foreground">
                   <MapPin size={18} className="text-primary" />

@@ -1,6 +1,6 @@
 import { MessageCircle } from "lucide-react";
 
-const PHONE = "5511999999999";
+const PHONE = "5598981549151";
 const MSG = encodeURIComponent(
   "Olá RESTECH! Cheguei pelo site e gostaria de falar com um especialista."
 );
