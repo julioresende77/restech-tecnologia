@@ -10,7 +10,7 @@ export function Footer() {
             <span className="font-display font-bold text-lg">RESTECH</span>
           </div>
           <p className="text-sm text-muted-foreground max-w-sm">
-            Tecnologia que vende por você. Sites, landing pages e automações sob medida para empresas que querem escalar de verdade.
+            Tecnologia que vende por você. Sites, landing pages e automações sob medida para empresas que querem escalar.
           </p>
         </div>
 
